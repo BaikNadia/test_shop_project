@@ -8,10 +8,6 @@
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-Documentation-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
-[![API Status](https://img.shields.io/badge/API-Online-00FF00?style=for-the-badge)](http://127.0.0.1:8000/swagger/)
-[![Tests](https://img.shields.io/badge/Tests-Passing-00CC00?style=for-the-badge)](#-тестирование)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-
 </div>
 
 ## 📋 Оглавление
