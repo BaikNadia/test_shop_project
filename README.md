@@ -121,7 +121,7 @@
 
 ### Шаг 1: Клонирование репозитория
 ```bash
-git clone <repository-url>
+git clone git@github.com:BaikNadia/test_shop_project.git
 cd shop_project
 ```
 
@@ -675,7 +675,7 @@ Backend Python/Django Developer
 ```text
 MIT License
 
-Copyright (c) 2024 Байко Надежда
+Copyright (c) 2026 Байкова Надежда
 
 Разрешается лицам, получившим копию данного программного обеспечения
 и сопутствующей документации (в дальнейшем именуемыми «Программное Обеспечение»),
@@ -698,17 +698,4 @@ Copyright (c) 2024 Байко Надежда
 С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.
 ```
 
----
-
-## 🔗 Полезные ссылки
-
-### Документация технологий
-- [Django Documentation](https://docs.djangoproject.com/)
-- [Django REST Framework Documentation](https://www.django-rest-framework.org/)
-- [JWT Introduction](https://jwt.io/introduction/)
-- [Postman Documentation](https://learning.postman.com/)
-
-
 **⭐ Если проект был полезен, не забудьте поставить звезду на GitHub!**
-
-*Последнее обновление: 22 января 2025 г.*
