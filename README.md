@@ -1,5 +1,19 @@
 # 🛒 Shop API - Тестовое задание для Backend Django Developer
 
+<div align="center">
+
+![Django](https://img.shields.io/badge/Django-5.2.10-092E20?style=for-the-badge&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-3.14.0-8B0000?style=for-the-badge&logo=django&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-Documentation-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+
+[![API Status](https://img.shields.io/badge/API-Online-00FF00?style=for-the-badge)](http://127.0.0.1:8000/swagger/)
+[![Tests](https://img.shields.io/badge/Tests-Passing-00CC00?style=for-the-badge)](#-тестирование)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+
+</div>
+
 ## 📋 Оглавление
 - [Описание проекта](#описание-проекта)
 - [Функционал](#функционал)
