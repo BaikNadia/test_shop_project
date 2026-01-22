@@ -1,0 +1,32 @@
+[
+  {
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+      "name": "Электроника",
+      "slug": "electronics",
+      "image": "categories/electronics.jpg",
+      "parent": null
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+      "name": "Смартфоны",
+      "slug": "smartphones",
+      "image": "categories/smartphones.jpg",
+      "parent": 1
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 3,
+    "fields": {
+      "name": "Ноутбуки",
+      "slug": "laptops",
+      "image": "categories/laptops.jpg",
+      "parent": 1
+    }
+  }
+]

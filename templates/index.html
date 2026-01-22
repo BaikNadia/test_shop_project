@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Магазин API</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+        h1 { 
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        .card h2 {
+            color: #333;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 15px 0;
+        }
+        a {
+            display: block;
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        a:hover {
+            transform: scale(1.03);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .status-card {
+            background: #f8f9fa;
+            border-left: 5px solid #28a745;
+        }
+        .status-item {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .status-item:last-child {
+            border-bottom: none;
+        }
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+            padding: 20px;
+            opacity: 0.8;
+        }
+        .api-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .api-links a {
+            flex: 1;
+            min-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛒 Shop API</h1>
+            <p class="subtitle">Добро пожаловать в интернет-магазин!</p>
+            <p>Тестовое задание для Backend Django Developer</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h2>🔧 Администрирование</h2>
+                <ul>
+                    <li><a href="/admin/">Панель администратора Django</a></li>
+                    <li><a href="/admin/shop/category/">Управление категориями</a></li>
+                    <li><a href="/admin/shop/product/">Управление товарами</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>📦 API Магазина</h2>
+                <ul>
+                    <li><a href="/api/categories/">Категории товаров</a></li>
+                    <li><a href="/api/products/">Все товары</a></li>
+                    <li><a href="/api/cart/">Корзина покупок</a></li>
+                </ul>
+            </div>
+
+            <div class="card status-card">
+                <h2>✅ Статус системы</h2>
+                <div class="status-item">✅ Сервер работает</div>
+                <div class="status-item">✅ База данных подключена</div>
+                <div class="status-item">✅ API доступен</div>
+                <div class="status-item">✅ Документация готова</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📚 Документация API</h2>
+            <div class="api-links">
+                <a href="/swagger/">Swagger UI</a>
+                <a href="/redoc/">ReDoc</a>
+            </div>
+            <p style="margin-top: 20px; color: #666;">
+                Swagger предоставляет интерактивную документацию с возможностью тестирования API прямо из браузера.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🔐 Аутентификация</h2>
+            <p>Для работы с корзиной требуется JWT токен:</p>
+            <div class="api-links">
+                <a href="/api/token/">Получить токен</a>
+                <a href="/api/token/refresh/">Обновить токен</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 Shop API | Тестовое задание Django Backend</p>
+            <p>Сервер работает на: <strong>http://127.0.0.1:8000</strong></p>
+        </div>
+    </div>
+</body>
+</html>
